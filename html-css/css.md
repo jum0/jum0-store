@@ -1,12 +1,28 @@
-# CSS 속성
+# CSS
 
-### display
+### Flex 아이템에 적용하는 속성
+
+##### flex-basis
 
 ```css
-.container {
-  display: flex;
+.item {
+  flex-basis: 100px
 }
 ```
 
-[flex 설정과 동시에 사용하는 속성들](https://heropy.blog/2018/11/24/css-flexible-box/) 🟠
+- width가 100px이 안 되는 AAA와 CCC는 100px로 늘어났고, 원래 100px이 넘는 BBB는 그대로 유지된다
+
+  <img src="./images/css-display-flex-basis-1.png">
+
+```css
+.item {
+  width: 100px
+}
+```
+
+- 원래 100px을 넘는 BBB도 100px로 맞춰진다
+
+  <img src="./images/css-display-flex-basis-2.png">
+
+[그림 참고](https://studiomeal.com/archives/197)
 
