@@ -4,7 +4,7 @@
 
 - 사용법
 
-  ```react
+  ```jsx
   // 만들고자 하는 HTML
   <table>
     <tr>
@@ -40,7 +40,7 @@
 
 - 단축 문법
 
-  ```react
+  ```jsx
   class Columns extends React.Component {
     render() {
       return (
@@ -55,7 +55,7 @@
 
 - key가 있는 Fragments
 
-  ```react
+  ```jsx
   function Glossary(props) {
     return (
       <dl>
