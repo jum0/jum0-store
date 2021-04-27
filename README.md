@@ -12,13 +12,13 @@
 #### Javascript
 
 - [DOM과 BOM 🟠](./js/dom-bom.md)
-- 버블링과 캡처링
+- [버블링과 캡처링 - 모던 자바스크립트 링크](https://ko.javascript.info/bubbling-and-capturing) 🟠
 - [String 객체 관련 메서드](./js/string.md)
 - [값, 식, 문](./js/value-expression-statement.md)
   - 🟠 리터럴 내용
-- 함수 선언식과 함수 표현식
-- [this, call/apply/bind 🟠 다시 정리](https://wnsah052.tistory.com/135?category=880045)
-- [순수 함수, 비순수 함수 🟠 다시 정리](https://wnsah052.tistory.com/128?category=880045)
+- [함수 선언식과 함수 표현식 - 모던 자바스크립트 링크 🟠](https://ko.javascript.info/function-expressions)
+- [this, call/apply/bind - 블로그 글 링크🟠](https://wnsah052.tistory.com/135?category=880045)
+- [순수 함수, 비순수 함수 - 블로그 글 링크🟠](https://wnsah052.tistory.com/128?category=880045)
 
 #### React
 
