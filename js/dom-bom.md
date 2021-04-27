@@ -1,14 +1,12 @@
 # DOM / BOM
 
-- Window 객체 아래에 같은 레벨로 document 객체와 EventTarget 생성자, Node 생성자, Document 생성자가 있다. Node 생성자는 EventTarget 생성자를 상속받고, Document 생성자는 Node 생성자를 상속받는다. 여기서 Document 생성자는 document 객체를 만드는데 사용된다. 
+- Window 객체 아래에 같은 레벨로 document 객체와 EventTarget 생성자, Node 생성자, Document 생성자가 있다. Node 생성자는 EventTarget 생성자를 상속받고, Document 생성자는 Node 생성자를 상속받는다. 여기서 Document 생성자는 document 객체를 만드는데 사용된다.
 
   > [인터페이스와 생성자 차이](https://www.javaer101.com/en/article/103444813.html)
   >
   > [생성자의 타입은 function - Answer 답글](https://stackoverflow.com/questions/23052135/what-is-the-difference-between-document-and-document/23052164)
 
 참고로 `window.Document`의 타입이 function으로 나오는 이유는 생성자의 타입은 보통 function이기 때문에.
-
-
 
 ## DOM
 
@@ -21,6 +19,10 @@
 <img src="images/dom-tree.png" width="50%" alt="dom tree">
 
 <img src="images/inheritance-structure-of-node-object.png" width="50%" alt="inheritance-structure-of-node-object">
+
+## BOM
+
+- Browser Object Model로 브라우저에 대한 모든 내용을 담고 있는 객체이다. 뒤로 가기, 북마크, 즐겨찾기, 히스토리, URL 정보 등을 포함한다. 브라우저가 가지고 있는 정보를 따로 객체화 시켜서 관리한다.
 
 ## 리플로우와 리페인트의 차이
 
